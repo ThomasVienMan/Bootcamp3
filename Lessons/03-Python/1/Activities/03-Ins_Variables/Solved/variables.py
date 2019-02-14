@@ -1,6 +1,6 @@
 # Creates a variable with a string "Frankfurter"
 title = "Frankfurter"
-
+catName = None
 # Creates a variable with an integer 80
 years = 80
 
