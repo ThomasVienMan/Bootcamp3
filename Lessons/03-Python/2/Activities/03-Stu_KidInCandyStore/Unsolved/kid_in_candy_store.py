@@ -10,3 +10,25 @@ candyCart = []
 
 for candy in candyList:
     print("[" + str(candyList.index(candy)) + "]" + candy)
+
+while allowance > 0:
+    candy_choice = input("Please select a candy: ")
+    candyCart.append(candyList[int(candy_choice)])
+    allowance = allowance - 1
+
+print(candyCart)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
